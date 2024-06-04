@@ -2,14 +2,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import React from 'react';
 import './App.css';
-import ProductList from "./Props/ProductList";
-import dataJson from './Data/dataGlasses.json';
 import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
+import BaiTapGameXucXacRedux from "./BaiTapXucXacRedux/BaiTapGameXucXacRedux";
 
 function App() {
   return (
       <div className='app'>
-          <ExerciseCarStore />
+          {/*<ExerciseCarStore />*/}
+          <BaiTapGameXucXacRedux />
       </div>
 
 
