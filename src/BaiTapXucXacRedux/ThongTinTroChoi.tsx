@@ -12,7 +12,7 @@ class ThongTinTroChoi extends React.Component<any, any> {
                     <span className='text-success'>{this.props.soBanThang}</span>
                 </div>
                 <div className='display-4'>BÀN SỐ BÀN CHƠI:
-                    <span className='text-primary'>{this.props.tongSobanChoi}</span>
+                    <span className='text-primary'>{this.props.tongSoBanChoi}</span>
                 </div>
             </div>
         );
@@ -21,9 +21,9 @@ class ThongTinTroChoi extends React.Component<any, any> {
 
 const mapStateToProps = (state:any) => {
     return {
-        taiXiu : state.BaiTapGameXucXacRedux.taiXiu,
-        soBanThang: state.BaiTapGameXucXacRedux.soBanThang,
-        tongSoBanChoi: state.BaiTapGameXucXacRedux.tongSoBanChoi
+        taiXiu : state.BaiTapGameXucXacReducer.taiXiu,  //lấy từ rootReducer
+        soBanThang: state.BaiTapGameXucXacReducer.soBanThang,
+        tongSoBanChoi: state.BaiTapGameXucXacReducer.tongSoBanChoi
     }
 }
 

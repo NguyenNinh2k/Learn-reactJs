@@ -8,7 +8,6 @@ import store from './redux/store';
 //setup redux
 import {Provider} from "react-redux";
 
-
 createRoot(document.getElementById('root') as HTMLElement).render(
     <Provider store={store}>
         <App/>
