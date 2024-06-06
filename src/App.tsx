@@ -3,13 +3,15 @@ import 'bootstrap/dist/js/bootstrap.js';
 import React from 'react';
 import './App.css';
 import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
-import BaiTapGameXucXacRedux from "./BaiTapXucXacRedux/BaiTapGameXucXacRedux";
+import BaiTapGameXucXacRedux from "./BaiTapRedux/BaiTapXucXacRedux/BaiTapGameXucXacRedux";
+import BaiTapGameOanTuXi from "./BaiTapRedux/BaiTapOanTuXiRedux/BaiTapGameOanTuXi";
 
 function App() {
   return (
       <div className='app'>
           {/*<ExerciseCarStore />*/}
-          <BaiTapGameXucXacRedux />
+          {/*<BaiTapGameXucXacRedux />*/}
+          <BaiTapGameOanTuXi />
       </div>
 
 
