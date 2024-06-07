@@ -1,4 +1,3 @@
-
 const stateDefault =  {
     taiXiu: true,
     mangXucXac: [

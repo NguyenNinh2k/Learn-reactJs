@@ -14,6 +14,7 @@ class BaiTapGameOanTuXi extends React.Component<any, any> {
                     </div>
                     <div className='col-4'>
                        <ThongTinTroChoiOanTuXi />
+                        <button className=''>Play Game</button>
                     </div>
                     <div className='col-4'>
                         <Computer />
